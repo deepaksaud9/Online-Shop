@@ -147,6 +147,13 @@ public class AdminController {
     @GetMapping("/admin/product/update/{id}")
     public String updateProductGet(@PathVariable long id, Model model)
     {
+    	
+       System.out.println("=============line added1 ==================");
+       
+       System.out.println("=============line added2 ==================");
+       
+       System.out.println("=============line added3 ==================");
+    	
     	Product product = productService.getProductById(id).get();
     	ProductDTO productDTO = new ProductDTO();
     	productDTO.setId(product.getId());
