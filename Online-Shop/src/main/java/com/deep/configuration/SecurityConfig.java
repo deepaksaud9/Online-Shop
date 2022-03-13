@@ -19,6 +19,9 @@ import com.deep.service.CustomUserDetailService;
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 	
 	
+	//This is configuration
+	
+	
 	  @Autowired GoogleOAuth2SuccessHandler googleOAuth2SuccessHandler;
 	 
 	@Autowired
